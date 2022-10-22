@@ -67,8 +67,12 @@ address {
   font-size: 16px;
   letter-spacing: var(--big-letter-spacing);
   line-height: 190%;
+}
+
+.action-button,
+.filter.active {
   color: var(--white-color-colorbg);
-  background-color: var(--accent-color);
+  background-color: var(--accent-color); 
 }
 .action-button,
 .filter {
@@ -122,11 +126,6 @@ letter-spacing: var(--letter-spacing);
 .filter {
   background-color: var(--grey-background);
 }
-.active {
-  color: var(--third-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-}
 .portfolio .title {
   font-weight: 700;
   font-size: 18px;
@@ -143,5 +142,5 @@ letter-spacing: var(--letter-spacing);
 .logo-accent,
 .link:hover,
 .link:focus {
-  color: var(--accent-color);
+  color: var(--white-color-colorbg);
 }
