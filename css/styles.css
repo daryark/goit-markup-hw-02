@@ -69,11 +69,10 @@ address {
   line-height: 190%;
   color: var(--white-color-colorbg);
   background-color: var(--accent-color);
-  cursor: pointer;
 }
-.action-button:hover,
-.action-button:focus {
-  background-color: var(--button-hover);
+.action-button,
+.filter {
+  cursor: pointer;
 }
 /*Features section */
 .sr-only {
@@ -137,6 +136,10 @@ letter-spacing: var(--letter-spacing);
 
 
 /* Hovers */
+.action-button:hover,
+.action-button:focus {
+  background-color: var(--button-hover);
+}
 .logo-accent,
 .link:hover,
 .link:focus {
