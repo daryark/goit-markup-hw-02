@@ -142,5 +142,5 @@ letter-spacing: var(--letter-spacing);
 .logo-accent,
 .link:hover,
 .link:focus {
-  color: var(--white-color-colorbg);
+  color: var(--accent-color);
 }
