@@ -62,7 +62,8 @@ address {
 	line-height: 1.36;
 }
 .hero,
-.footer .link {
+.footer > :first-child,
+.link.real-address {
 	color: var(--white-color-colorbg);
 }
 .action-button {
@@ -124,8 +125,8 @@ address {
 	line-height: var(--line-height-auto);
 	letter-spacing: var(--letter-spacing);
 }
-.footer > :first-child {
-	color: var(--white-color-colorbg);
+.footer .link + {
+	color: rgba(255, 255, 255, 0.6);
 }
 
 /* Portfolio page */
@@ -137,7 +138,8 @@ address {
 }
 .filter {
 	background-color: var(--grey-background);
-	letter-spacing: 1.63;
+	letter-spacing: var(--letter-spacing);
+	line-height: 1.63;
 }
 
 /* Hovers */
