@@ -72,12 +72,6 @@ address {
 	letter-spacing: var(--big-letter-spacing);
 	line-height: 1.88;
 }
-
-.action-button,
-.filter.active {
-	color: var(--white-color-colorbg);
-	background-color: var(--accent-color);
-}
 .action-button,
 .filter {
 	cursor: pointer;
@@ -148,7 +142,15 @@ address {
 	background-color: var(--button-hover);
 }
 .logo-accent,
+.link.active,
 .link:hover,
 .link:focus {
 	color: var(--accent-color);
+}
+.action-button,
+.filter.active,
+.filter:hover,
+.filter:focus {
+	color: var(--white-color-colorbg);
+	background-color: var(--accent-color);
 }
